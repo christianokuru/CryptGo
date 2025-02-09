@@ -9,7 +9,8 @@ export default {
       primary: "#99E39E",
       white: "#FFFFFF",
       background: "#000510",
-      textColor: "#3D4139",
+      textColor1: "#3D4139",
+      textColor2: "#FFFFFFCC",
       "off-white": "#F3F0EF",
     },
     fontSize: {

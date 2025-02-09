@@ -12,7 +12,7 @@ const navLinks = [
 
 <template>
   <div>
-    <div class="flex items-center justify-between my-[32px]">
+    <div class="flex items-center justify-between my-[32px] ">
       <div>
         <logo-component />
       </div>

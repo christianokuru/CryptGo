@@ -1,0 +1,33 @@
+<script setup>
+import AlertComponent from "@/components/custom/AlertComponent.vue"
+import ButtonComponent from "@/components/custom/ButtonComponent.vue"
+import arrow from "@/assets/images/right-arrow.svg"
+import hero from "@/assets/images/hero.svg"
+</script>
+
+<template>
+  <div class="flex items-center justify-between">
+    <div class="w-[588px] mt-[72px] mb-[137px]">
+      <div>
+        <div>
+          <alert-component text="Future of crypto trading" />
+        </div>
+        <h1
+          class="mt-[12px] font-500 text-[72px] text-[#FFFFFFCC] leading-[86.4px]"
+        >
+          Fast and Secure Cryptocurrency Exchange
+        </h1>
+        <p class="mt-[12px] text-[#ffffffa8] font-[400] text-16px leading-[22.4px] w-[450px]">
+          Trade cryptocurrencies with ease, security, and advanced features on
+          our cutting-edge platform.
+        </p>
+      </div>
+      <div class="mt-[40px]">
+        <button-component text="Get Started" :icon="arrow" />
+      </div>
+    </div>
+    <div class="w-[700px] h-[582px] mt-[72px]">
+        <img :src="hero" alt="hero" class=""/>
+    </div>
+  </div>
+</template>
