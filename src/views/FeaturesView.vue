@@ -4,8 +4,11 @@ import CrypgoLayout from "@/layouts/CrypgoLayout.vue"
 
 <template>
   <crypgo-layout>
-    <main>
-      
-    </main>
+    <div>
+      <h1>This is the features</h1>
+    </div>
   </crypgo-layout>
-</template>
+  </template>
+  
+  
+  

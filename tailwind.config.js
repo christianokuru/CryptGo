@@ -19,10 +19,12 @@ export default {
       "24px": "24px",
       "18px": "18px",
       "17px": "17px",
+      "16px": "16px",
     },
     fontWeight: {
       500: "500",
       400: "400",
+      600: "600",
     },
     lineHeight: {
       "120.32px": "120.32px",
@@ -39,6 +41,7 @@ export default {
       },
       borderRadius: {
         16: "16px",
+        12: "12px",
       },
     },
   },
