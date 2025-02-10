@@ -1,9 +1,26 @@
 <script setup>
 import FeatureGridComponent from '@/components/custom/FeatureGridComponent.vue'
+import chain from '@/assets/images/chain.svg'
+import thunder from '@/assets/images/thunder.svg'
+import settings from '@/assets/images/settings.svg'
 import { ref } from 'vue'
 
 const features = ref([
-    { text: 'Designed for crypto trading platforms'}
+    { 
+        text: 'Designed for crypto trading platforms',
+        icon: chain,
+        bgColor: 'bg-[#FFFFFF1A]'
+    },
+    { 
+        text: 'Designed for crypto trading platforms',
+        icon: thunder,
+        bgColor: 'bg-[#FFFFFF1A]'
+    },
+    { 
+        text: 'Designed for crypto trading platforms',
+        icon: settings,
+        bgColor: 'bg-[#FFFFFF1A]'
+    }
 ])
 
 </script>
@@ -20,7 +37,11 @@ const features = ref([
             <div class="grid grid-cols-2 gap-4">
                 <div>
                     <feature-grid-component 
-                    
+                    v-for="(feature, index) in features"
+                    :key="index"
+                    :text="feature.text"
+                    :icon="feature.icon"
+                    :bg-color="feature.bgColor"
                     />
                 </div>
             </div>

@@ -16,8 +16,8 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="flex items-center mr-[16px] w-[210px]">
-        <div :class="[bgColor, 'w-[40px] h-[40px] rounded-[999px] p-[10px] bg-[#FFFFFF1A]]']">
+    <div class="flex items-center w-[210px]">
+        <div :class="[bgColor, 'w-[40px] h-[40px] rounded-[999px] p-[10px] bg-[#FFFFFF1A]] mr-[16px]']">
             <img :src="icon" :alt="text" class="w-[20px] h-[20px] object-contain" />
         </div>
         <div>
