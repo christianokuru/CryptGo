@@ -30,7 +30,7 @@ const features = ref([
         <!-- left div -->
         <div>
             <div>
-                <p>Why choose crypgo</p>
+                <p class="font-400 text-18px leading-[21.6px]">Why choose <span class="text-primary">crypgo</span></p>
                 <h1>Features of the crypto framer mobile application</h1>
             </div>
             <!-- grid section -->
