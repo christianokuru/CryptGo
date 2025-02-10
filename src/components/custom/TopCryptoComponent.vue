@@ -11,7 +11,7 @@ import { cards } from '@/lib/Crypto-card-detials.js'
             <h1 class="text-white font-600 text-44px leading-[48px] mb-[40px]">Top crypto coins updates</h1>
         </div>
         
-        <div class="flex items-center justify-around mb-[72px]">
+        <div class="flex items-center justify-evenly mb-[72px]">
             <top-crypto-cards
             v-for="(cryptoCards, index) in cards"
             :key="index"
