@@ -49,6 +49,8 @@ const features = ref([
     </div>
 
     <!-- right div -->
-    <div></div>
+    <div>
+        
+    </div>
   </div>
 </template>
