@@ -28,5 +28,12 @@ const props = defineProps({
 </script>
 
 <template>
+    <div>
+        <h1>Your portfolio is up {{ portfolioTotal }}</h1>
+        <div class="flex flex-col">
+            <div>
 
+            </div>
+        </div>
+    </div>
 </template>
