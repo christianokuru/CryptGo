@@ -23,7 +23,7 @@ import hero from "@/assets/images/hero.svg"
         </p>
       </div>
       <div class="mt-[40px]">
-        <button-component text="Get Started" :icon="arrow" />
+        <button-component text="Explore more" :icon="arrow" />
       </div>
     </div>
     <div class="w-[700px] h-[582px] mt-[72px]">

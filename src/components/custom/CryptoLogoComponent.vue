@@ -11,10 +11,10 @@ import { Autoplay, FreeMode } from "swiper/modules"
 <template>
   <div class="w-full px-4 py-8 bg-background">
     <Swiper
-      :slides-per-view="7"
+      :slides-per-view="5"
       :space-between="20"
       :loop="true"
-      :autoplay="{ delay: 3000, disableOnInteraction: false }"
+      :autoplay="{ delay: 1000, disableOnInteraction: false }"
       :free-mode="true"
       :modules="[Autoplay, FreeMode]"
       class="w-full"
