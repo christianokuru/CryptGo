@@ -3,7 +3,8 @@ import CrypgoLayout from "@/layouts/CrypgoLayout.vue"
 import HeroComponent from "@/components/custom/HeroComponent.vue"
 import TopCryptoComponent from "@/components/custom/TopCryptoComponent.vue"
 import TrustedPlatformComponent from "@/components/custom/TrustedPlatformComponent.vue"
-import FeatureSectionComponent from "@/components/custom/FeatureSectionComponent.vue";
+import FeatureSectionComponent from "@/components/custom/FeatureSectionComponent.vue"
+import ReviewSectionComponent from "@/components/custom/ReviewSectionComponent.vue"
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import FeatureSectionComponent from "@/components/custom/FeatureSectionComponent
       <trusted-platform-component />
       <top-crypto-component />
       <feature-section-component />
+      <review-section-component />
     </main>
   </crypgo-layout>
 </template>
