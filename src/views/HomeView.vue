@@ -5,6 +5,7 @@ import TopCryptoComponent from "@/components/custom/TopCryptoComponent.vue"
 import TrustedPlatformComponent from "@/components/custom/TrustedPlatformComponent.vue"
 import FeatureSectionComponent from "@/components/custom/FeatureSectionComponent.vue"
 import ReviewSectionComponent from "@/components/custom/ReviewSectionComponent.vue"
+import BigPhoneSectionComponent from "@/components/custom/BigPhoneSectionComponent.vue"
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import ReviewSectionComponent from "@/components/custom/ReviewSectionComponent.v
       <top-crypto-component />
       <feature-section-component />
       <review-section-component />
+      <big-phone-section-component />
     </main>
   </crypgo-layout>
 </template>
