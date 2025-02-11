@@ -52,7 +52,7 @@ const features = ref([
 
     <!-- right div -->
     <div>
-        <div class="absolute left-2">
+        <div class="absolute right-[200px] top-[1570px]">
             <img :src="wavy" class="w-[588px]" />
         </div>
         <div class="relative left-[200px] top-[30px] w-[371px] rounded-16 p-[32px] bg-[#FFFFFF0D] border border-[#FFFFFF1A] backdrop-blur-[8px]">
