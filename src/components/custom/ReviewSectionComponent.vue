@@ -1,5 +1,5 @@
 <script setup>
-import ReviewCardComponent from '@/component/custom/ReviewCardComponent.vue'
+import ReviewCardComponent from '@/components/custom/ReviewCardComponent.vue'
 import { ref } from 'vue'
 
 const reviews = ref([
@@ -12,8 +12,8 @@ const reviews = ref([
 
 <template>
 <div>
-    <div>
-        <div>
+    <div class="my-[72px] mx-[102px]">
+        <div class="flex justify-evenly">
             <review-card-component 
             v-for="(review, index) in reviews"
             :key="index"
