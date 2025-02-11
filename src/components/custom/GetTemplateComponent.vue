@@ -27,7 +27,7 @@ import rightArrow from "@/assets/images/right-arrow.svg";
         />
       </div>
       <div
-        class="absolute inset-[0px] left-[989px] bg-[url('src/assets/images/abstract1.svg')] bg-no-repeat bg-cover opacity-15"
+        class="absolute inset-[0px] left-[989px] bg-[url('src/assets/images/abstract1.svg')] bg-no-repeat bg-cover opacity-5"
       ></div>
     </div>
   </div>
