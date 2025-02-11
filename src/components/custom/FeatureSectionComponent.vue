@@ -53,11 +53,11 @@ const features = ref([
     </div>
 
     <!-- right div -->
-    <div>
-        <div class="absolute right-[200px] top-[1570px]">
+    <div class="mb-[77px]">
+        <div class="absolute right-[200px] top-[1599px]">
             <img :src="wavy" class="w-[588px]" />
         </div>
-        <div class="relative left-[200px] top-[30px] w-[371px] rounded-16 p-[32px] bg-[#FFFFFF0D] border border-[#FFFFFF1A] backdrop-blur-[8px]">
+        <div class="relative left-[200px] top-[75px] w-[371px] rounded-16 p-[32px] bg-[#FFFFFF0D] border border-[#FFFFFF1A] backdrop-blur-[8px]">
         <h1 class="mb-[32px] font-500 text-[20px] leading-[24px]">Your portfolio is up <span class="font-500 text-[20px] leading-[24px] text-primary">{{ portfolioScore }}%</span></h1>
 
         <portfolio-card-component 
