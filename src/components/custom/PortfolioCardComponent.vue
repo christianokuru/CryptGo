@@ -1,9 +1,5 @@
 <script setup>
 const props = defineProps({
-    portfolioTotal: {
-        type: String,
-        required: true
-    },
     cryptoIcon: {
         type: String,
         required: true
@@ -12,11 +8,11 @@ const props = defineProps({
         type: String,
         required: true
     },
-    crpyoPair: {
+    cryptoPair: {
         type: String,
         required: true
     },
-    cryptoValue: {
+    cryptoPercentValue: {
         type: String,
         required: true
     },
@@ -28,12 +24,19 @@ const props = defineProps({
 </script>
 
 <template>
-    <div>
-        <h1>Your portfolio is up {{ portfolioTotal }}</h1>
-        <div class="flex flex-col">
-            <div>
-
+        <div class="flex flex-col mb-[32px] cursor-pointer hover:bg-[#ffffff18] rounded-16">
+            <div class="grid grid-cols-2">
+                <div class="flex items-center">
+                    <img :src="cryptoIcon" alt="crypto-icon" class="w-[48px] h-[48px] mr-[16px]"/>
+                    <div class="flex flex-col mr-[118px]">
+                        <h2 class="text-white font-600 text-16px leading-[22.4px]">{{ cryptoName }}</h2>
+                        <p class="font-400 text-[14px] leading-[19.6px] text-[#FFFFFFCC]">{{ cryptoPair }}</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-end">
+                    <p class="text-primary font-500 text-16px leading-[22.4px]">{{ cryptoPercentValue }}%</p>
+                    <img :src="upOrDownIcon" alt="up-or-down-icon" class="w-[20px] h-[20px]" />
+                </div>
             </div>
         </div>
-    </div>
 </template>

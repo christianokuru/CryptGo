@@ -1,9 +1,12 @@
 <script setup>
-import FeatureGridComponent from "@/components/custom/FeatureGridComponent.vue";
-import chain from "@/assets/images/chain.svg";
-import thunder from "@/assets/images/thunder.svg";
-import settings from "@/assets/images/settings.svg";
-import { ref } from "vue";
+import FeatureGridComponent from "@/components/custom/FeatureGridComponent.vue"
+import PortfolioCardComponent from "@/components/custom/PortfolioCardComponent.vue"
+import { portfolio } from "@/lib/Portfolio-card-details"
+import chain from "@/assets/images/chain.svg"
+import thunder from "@/assets/images/thunder.svg"
+import settings from "@/assets/images/settings.svg"
+import wavy from "@/assets/images/wavy-bg.svg"
+import { ref } from "vue"
 
 const features = ref([
   {
@@ -25,7 +28,7 @@ const features = ref([
 </script>
 
 <template>
-  <div>
+  <div class="flex items-center">
     <!-- left div -->
     <div class="w-[588px]">
       <div class="mb-[40px]">
@@ -36,7 +39,6 @@ const features = ref([
           Features of the crypto framer mobile application
         </h1>
       </div>
-      <!-- grid section -->
       <div class="grid grid-cols-2 gap-y-[42px]">
         <feature-grid-component
           v-for="(feature, index) in features"
@@ -50,7 +52,22 @@ const features = ref([
 
     <!-- right div -->
     <div>
-        
+        <div class="absolute left-2">
+            <img :src="wavy" class="w-[588px]" />
+        </div>
+        <div class="relative left-[200px] top-[30px] w-[371px] rounded-16 p-[32px] bg-[#FFFFFF0D] border border-[#FFFFFF1A] backdrop-blur-[8px]">
+        <h1 class="mb-[32px] font-500 text-[20px] leading-[24px]">Your portfolio is up <span class="font-500 text-[20px] leading-[24px] text-primary">2.31%</span></h1>
+
+        <portfolio-card-component 
+        v-for="(portfolioDetails, index) in portfolio"
+        :key="index"
+        :crypto-icon="portfolioDetails.cryptoIcon"
+        :crypto-name="portfolioDetails.cryptoName"
+        :crypto-pair="portfolioDetails.cryptoPair"
+        :crypto-percent-value="portfolioDetails.cryptoPercentValue"
+        :up-or-down-icon="portfolioDetails.upOrDownIcon"
+        />
+    </div>
     </div>
   </div>
 </template>
