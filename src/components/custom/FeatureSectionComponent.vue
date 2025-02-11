@@ -8,6 +8,8 @@ import settings from "@/assets/images/settings.svg"
 import wavy from "@/assets/images/wavy-bg.svg"
 import { ref } from "vue"
 
+const portfolioScore = ref(13.21)
+
 const features = ref([
   {
     text: "Designed for crypto trading platforms",
@@ -56,7 +58,7 @@ const features = ref([
             <img :src="wavy" class="w-[588px]" />
         </div>
         <div class="relative left-[200px] top-[30px] w-[371px] rounded-16 p-[32px] bg-[#FFFFFF0D] border border-[#FFFFFF1A] backdrop-blur-[8px]">
-        <h1 class="mb-[32px] font-500 text-[20px] leading-[24px]">Your portfolio is up <span class="font-500 text-[20px] leading-[24px] text-primary">2.31%</span></h1>
+        <h1 class="mb-[32px] font-500 text-[20px] leading-[24px]">Your portfolio is up <span class="font-500 text-[20px] leading-[24px] text-primary">{{ portfolioScore }}%</span></h1>
 
         <portfolio-card-component 
         v-for="(portfolioDetails, index) in portfolio"

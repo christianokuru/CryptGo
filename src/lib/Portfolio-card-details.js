@@ -10,7 +10,7 @@ export const portfolio = ref([
         cryptoIcon: btc,
         cryptoName: 'Bitcoin',
         cryptoPair: 'BTC/USD',
-        cryptoPercentValue: '1.05',
+        cryptoPercentValue: '2.85',
         upOrDownIcon: arrow,
     },
     {
@@ -26,7 +26,7 @@ export const portfolio = ref([
         cryptoIcon: ltc,
         cryptoName: 'Litecoin',
         cryptoPair: 'LTC/USD',
-        cryptoPercentValue: '1.05',
+        cryptoPercentValue: '2.97',
         upOrDownIcon: arrow,
     },
     {
@@ -34,7 +34,7 @@ export const portfolio = ref([
         cryptoIcon: polka,
         cryptoName: 'Polkadot',
         cryptoPair: 'DOT/USD',
-        cryptoPercentValue: '1.05',
+        cryptoPercentValue: '6.34',
         upOrDownIcon: arrow,
     }
 ])
