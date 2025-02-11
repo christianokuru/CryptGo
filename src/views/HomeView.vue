@@ -6,6 +6,7 @@ import TrustedPlatformComponent from "@/components/custom/TrustedPlatformCompone
 import FeatureSectionComponent from "@/components/custom/FeatureSectionComponent.vue"
 import ReviewSectionComponent from "@/components/custom/ReviewSectionComponent.vue"
 import BigPhoneSectionComponent from "@/components/custom/BigPhoneSectionComponent.vue"
+import GetTemplateComponent from "@/components/custom/GetTemplateComponent.vue"
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import BigPhoneSectionComponent from "@/components/custom/BigPhoneSectionCompone
       <feature-section-component />
       <review-section-component />
       <big-phone-section-component />
+      <get-template-component />
     </main>
   </crypgo-layout>
 </template>
