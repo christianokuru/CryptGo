@@ -21,7 +21,7 @@ import rightArrow from "@/assets/images/right-arrow.svg";
       </div>
       <div class="relative z-10 ml-[226px]">
         <button-component
-          text="Get template"
+          text="Get templates"
           :icon="rightArrow"
           class="mr-[66px]"
         />
