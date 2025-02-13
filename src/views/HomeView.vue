@@ -10,6 +10,7 @@ import GetTemplateComponent from "@/components/custom/GetTemplateComponent.vue"
 import CreatePortfolioSectionComponent from "@/components/custom/CreatePortfolioSectionComponent.vue"
 import UpgradeCryptoSectionComponent from "@/components/custom/UpgradeCryptoSectionComponent.vue"
 import CommunitySectionComponent from "@/components/custom/CommunitySectionComponent.vue"
+import LearnMoreSectionComponent from "@/components/custom/LearnMoreSectionComponent.vue"
 </script>
 
 <template>
@@ -25,6 +26,7 @@ import CommunitySectionComponent from "@/components/custom/CommunitySectionCompo
       <create-portfolio-section-component />
       <upgrade-crypto-section-component />
       <community-section-component />
+      <learn-more-section-component />
     </main>
   </crypgo-layout>
 </template>
