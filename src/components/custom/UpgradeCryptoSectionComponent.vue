@@ -18,7 +18,6 @@ const checklist2 = [
 
 <template>
   <div class="flex items-center justify-between">
-    <!-- text and others -->
     <div class="w-[585px]">
       <div>
         <p class="mb-[12px] font-400 text-18px leading-[21.6px]">
@@ -37,14 +36,12 @@ const checklist2 = [
         </div>
       </div>
       <div class="flex space-x-[40px] mt-[40px]">
-        <!-- left -->
         <div class="flex flex-col">
             <div v-for="checks in checklist1" :key="checklist1.id" class="flex items-center space-x-[12px] mb-[20px]">
             <img :src="checks.icon" alt="check-icon">
             <p class="font-500 text-16px leading-[19.2px] text-nowrap">{{ checks.text }}</p>
         </div>
         </div>
-        <!-- right -->
         <div>
             <div v-for="checks2 in checklist2" :key="checklist2.id" class="flex items-center space-x-[12px] w-[232px] mb-[20px]">
             <img :src="checks2.icon" alt="check-icon">
@@ -53,7 +50,6 @@ const checklist2 = [
       </div>
     </div>
     </div>
-    <!-- image -->
     <div>
       <img :src="chart" alt="crypto-chart" class="mr-[30px]">
     </div>
