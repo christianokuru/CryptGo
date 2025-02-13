@@ -12,7 +12,7 @@ import community from '@/assets/images/community.svg'
             </div>
         </div>
         <div>
-            <img :src="community" alt="community" class="mt-[72px] w-full">
+            <img :src="community" alt="community" class="mt-[72px] mb-[72px] w-full">
         </div>
     </div>
 </template>
