@@ -19,7 +19,7 @@ const checklist2 = [
   <div class="border">
     <!-- text and others -->
     <div class="w-[585px] border">
-      <div class="border border-primary">
+      <div>
         <p class="mb-[12px] font-400 text-18px leading-[21.6px]">
           Crypgo <span class="text-primary">upgrade</span>
         </p>
@@ -35,19 +35,19 @@ const checklist2 = [
           </p>
         </div>
       </div>
-      <div class="flex">
+      <div class="flex space-x-[40px] mt-[40px]">
         <!-- left -->
         <div class="flex flex-col">
-            <div v-for="checks in checklist1" :key="checklist1.id" class="flex items-center space-x-[12px] w-[190px] border">
-            <img :src="checks.icon" alt="">
-            <p>{{ checks.text }}</p>
+            <div v-for="checks in checklist1" :key="checklist1.id" class="flex items-center space-x-[12px] mb-[20px]">
+            <img :src="checks.icon" alt="check-icon">
+            <p class="font-500 text-16px leading-[19.2px] text-nowrap">{{ checks.text }}</p>
         </div>
         </div>
         <!-- right -->
         <div>
-            <div v-for="checks2 in checklist2" :key="checklist2.id" class="flex items-center space-x-[12px] w-[232px] border border-primary  ">
-            <img :src="checks2.icon" alt="">
-            <p>{{ checks2.text }}</p>
+            <div v-for="checks2 in checklist2" :key="checklist2.id" class="flex items-center space-x-[12px] w-[232px] mb-[20px]">
+            <img :src="checks2.icon" alt="check-icon">
+            <p class="font-500 text-16px leading-[19.2px] text-nowrap">{{ checks2.text }}</p>
         </div>
       </div>
     </div>
