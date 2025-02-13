@@ -1,5 +1,6 @@
 <script setup>
 import check from '@/assets/images/check.svg'
+import chart from '@/assets/images/chart.svg'
 
 const checklist1 = [
     { id: 1, text: '100% secure', icon: check},
@@ -16,9 +17,9 @@ const checklist2 = [
 </script>
 
 <template>
-  <div class="border">
+  <div class="flex items-center justify-between">
     <!-- text and others -->
-    <div class="w-[585px] border">
+    <div class="w-[585px]">
       <div>
         <p class="mb-[12px] font-400 text-18px leading-[21.6px]">
           Crypgo <span class="text-primary">upgrade</span>
@@ -53,6 +54,8 @@ const checklist2 = [
     </div>
     </div>
     <!-- image -->
-    <div></div>
+    <div>
+      <img :src="chart" alt="crypto-chart" class="mr-[30px]">
+    </div>
   </div>
 </template>

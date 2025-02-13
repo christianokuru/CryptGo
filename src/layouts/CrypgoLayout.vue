@@ -4,7 +4,7 @@ import FooterComponent from '@/components/custom/FooterComponent.vue';
 </script>
 
 <template>
-    <div class="border border-[#47474798] mx-[50px]">
+    <div class="ml-[50px] mr-[47px]">
         <div>
             <navbar-component />
         </div>
