@@ -21,7 +21,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="w-[180px] h-[161px] rounded-[16px] p-[20px] border border-[#FFFFFF1A] bg-[#FFFFFF0D] hover:bg-[#ffffff1e] cursor-pointer">
+    <div class="w-[180px] h-[161px] rounded-[16px] p-[20px] border border-[#FFFFFF1A] bg-[#FFFFFF0D] hover:bg-[#ffffff1e] cursor-pointer" data-aos="fade-down">
         <h2 class="font-400 text-[14px] leading-[16.8px] text-[#FFFFFF99] mb-[16px]">{{ title }}</h2>
         <img :src="cryptoLogo" alt="crypto logo" class="w-[32px] h-[32px] mb-[16px]"/>
         <div class="">

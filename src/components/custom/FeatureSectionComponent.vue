@@ -32,7 +32,7 @@ const features = ref([
 <template>
   <div class="flex items-center">
     <!-- left div -->
-    <div class="w-[588px]">
+    <div class="w-[588px]" data-aos="fade-right">
       <div class="mb-[40px]">
         <p class="font-400 text-18px leading-[21.6px] mb-[12px]">
           Why choose <span class="text-primary">crypgo</span>

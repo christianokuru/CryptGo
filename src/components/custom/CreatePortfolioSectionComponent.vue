@@ -12,8 +12,8 @@ const list = [
 </script>
 
 <template>
-  <div class="flex items-center justify-between">
-    <div class="w-[700px]">
+  <div class="flex items-center justify-between" data-aos="fade-right">
+    <div class="w-[700px]" >
       <img :src="pic" alt="image-on-the-left" />
     </div>
     <div class="pl-[32px] ml-[29px] w-[585px]">
@@ -33,6 +33,7 @@ const list = [
         v-for="lists in list"
         :key="list.id"
         class="flex items-center border-b-[1px] border-[#FFFFFF1A] py-[20px]"
+        data-aos="fade-left"
       >
         <img :src="lists.icon" alt="lists.altName" class="mr-[12px]" />
         <h1 class="font-500 text-[20px] leading-[24px]">{{ lists.text }}</h1>

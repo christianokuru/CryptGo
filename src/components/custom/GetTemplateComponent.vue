@@ -4,7 +4,7 @@ import rightArrow from "@/assets/images/right-arrow.svg";
 </script>
 
 <template>
-  <div class="relative overflow-hidden py-[72px]">
+  <div class="relative overflow-hidden py-[72px]" data-aos="fade-left">
     <div
       class="flex items-center justify-between py-[64px] pl-[64px] border border-[#FFFFFF1A] rounded-16 bg-[#FFFFFF0D] backdrop-blur-[6px]"
     >

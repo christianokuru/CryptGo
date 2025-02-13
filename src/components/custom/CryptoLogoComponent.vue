@@ -9,7 +9,7 @@ import { Autoplay, FreeMode } from "swiper/modules"
 </script>
 
 <template>
-  <div class="w-full px-4 py-8 bg-background">
+  <div class="w-full px-4 py-8 bg-background" data-aos="fade-down">
     <Swiper
       :slides-per-view="5"
       :space-between="20"
