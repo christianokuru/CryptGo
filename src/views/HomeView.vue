@@ -8,6 +8,7 @@ import ReviewSectionComponent from "@/components/custom/ReviewSectionComponent.v
 import BigPhoneSectionComponent from "@/components/custom/BigPhoneSectionComponent.vue"
 import GetTemplateComponent from "@/components/custom/GetTemplateComponent.vue"
 import CreatePortfolioSectionComponent from "@/components/custom/CreatePortfolioSectionComponent.vue"
+import UpgradeCryptoSectionComponent from "@/components/custom/UpgradeCryptoSectionComponent.vue"
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import CreatePortfolioSectionComponent from "@/components/custom/CreatePortfolio
       <big-phone-section-component />
       <get-template-component />
       <create-portfolio-section-component />
+      <upgrade-crypto-section-component />
     </main>
   </crypgo-layout>
 </template>
