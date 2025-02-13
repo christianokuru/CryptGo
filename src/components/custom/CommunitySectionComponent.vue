@@ -3,7 +3,7 @@ import community from '@/assets/images/community.svg'
 </script>
 
 <template>
-    <div class="text-center">
+    <div class="text-center" data-aos="fade-down-right">
         <div class="mt-[72px] mb-[40px]">
             <p class="font-400 text-18px leading-[21.6px] mb-[12px]">Always by <span class="text-primary">your side</span></p>
             <div>
