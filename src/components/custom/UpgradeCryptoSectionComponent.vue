@@ -35,15 +35,17 @@ const checklist2 = [
           </p>
         </div>
       </div>
-      <div class="grid grid-cols-2">
+      <div class="flex">
         <!-- left -->
-        <div v-for="checks in checklist1" :key="checklist1.id" class="">
+        <div class="flex flex-col">
+            <div v-for="checks in checklist1" :key="checklist1.id" class="flex items-center space-x-[12px] w-[190px] border">
             <img :src="checks.icon" alt="">
             <p>{{ checks.text }}</p>
         </div>
+        </div>
         <!-- right -->
         <div>
-            <div v-for="checks2 in checklist2" :key="checklist2.id">
+            <div v-for="checks2 in checklist2" :key="checklist2.id" class="flex items-center space-x-[12px] w-[232px] border border-primary  ">
             <img :src="checks2.icon" alt="">
             <p>{{ checks2.text }}</p>
         </div>
