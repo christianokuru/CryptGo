@@ -6,8 +6,8 @@ import hero from "@/assets/images/hero.svg"
 </script>
 
 <template>
-  <div class="flex items-center justify-between">
-    <div class="w-[588px] mt-[72px] mb-[137px]">
+  <div class="flex items-center justify-between"  data-aos="zoom-in-down">
+    <div class="w-[588px] mt-[72px] mb-[137px]" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <div>
         <div>
           <alert-component text="Future of crypto trading" />

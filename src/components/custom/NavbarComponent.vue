@@ -17,7 +17,7 @@ const navLinks = [
         <logo-component />
       </div>
 
-      <div class="flex items-center space-x-[50px]">
+      <div class="flex items-center space-x-[50px]" data-aos="fade-down">
         <div v-for="links in navLinks" :key="links.text">
           <router-link
             :to="links.route"
@@ -29,7 +29,7 @@ const navLinks = [
         </div>
       </div>
 
-      <div>
+      <div data-aos="fade-left">
         <button
           class="bg-primary text-background font-600 text-16px leading-[22.4px] px-[20px] py-[11px] rounded-12"
         >

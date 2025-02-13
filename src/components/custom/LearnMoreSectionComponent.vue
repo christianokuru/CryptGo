@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div>
+    <div >
         <!-- text -->
         <div class="mt-[72px] mb-[40px] text-center">
             <p class="mb-[8px] font-400 text-18px leading-[25.2px]">Popular <span class="text-primary">questions</span></p>
