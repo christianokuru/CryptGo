@@ -7,6 +7,7 @@ import FeatureSectionComponent from "@/components/custom/FeatureSectionComponent
 import ReviewSectionComponent from "@/components/custom/ReviewSectionComponent.vue"
 import BigPhoneSectionComponent from "@/components/custom/BigPhoneSectionComponent.vue"
 import GetTemplateComponent from "@/components/custom/GetTemplateComponent.vue"
+import CreatePortfolioSectionComponent from "@/components/custom/CreatePortfolioSectionComponent.vue"
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import GetTemplateComponent from "@/components/custom/GetTemplateComponent.vue"
       <review-section-component />
       <big-phone-section-component />
       <get-template-component />
+      <create-portfolio-section-component />
     </main>
   </crypgo-layout>
 </template>
