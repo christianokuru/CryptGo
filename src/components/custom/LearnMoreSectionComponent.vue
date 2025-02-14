@@ -1,4 +1,7 @@
 <script setup>
+import { AccordionRoot } from "radix-vue"
+import AccordionComponent from '@/components/custom/AccordionComponent.vue'
+
 
 </script>
 
@@ -13,6 +16,8 @@
             </div>
         </div>
         <!-- Accordion component -->
-        <div></div>
+        <div>
+            <accordion-component />
+        </div>
     </div>
 </template>
