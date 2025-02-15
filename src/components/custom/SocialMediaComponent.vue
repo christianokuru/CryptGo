@@ -11,6 +11,11 @@ const props = defineProps({
     },
     altText: {
         type: String,
+    },
+    link: {
+        type: String,
+        default: '#',
+        required: true,
     }
 })
 </script>
@@ -18,7 +23,9 @@ const props = defineProps({
 <template>
 <div :class="[bgColor, 'w-[38px] rounded-[999px] p-[9px]']">
     <div class="">
-        <img :src="icon" :alt="altText" class="w-[20px] h-[20px]">
+        <a :href="link" target="_blank" rel="noopener noreferrer">
+            <img :src="icon" :alt="altText" class="w-[20px] h-[20px]">
+        </a>
     </div>
 </div>
 </template>

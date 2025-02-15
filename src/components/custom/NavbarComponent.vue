@@ -1,14 +1,8 @@
 <script setup>
 import { ref } from 'vue';
-import LogoComponent from "@/components/custom/LogoComponent.vue";
+import LogoComponent from "@/components/custom/LogoComponent.vue"
+import { navlinks } from '@/lib/Navlinks';
 
-const navLinks = [
-  { text: "Features", route: { name: "features" } },
-  { text: "Benefits", route: { name: "benefits" } },
-  { text: "Services", route: { name: "services" } },
-  { text: "Why Crypgo", route: { name: "whyCrypGo" } },
-  { text: "FAQs", route: { name: "faq" } },
-];
 
 const isMenuOpen = ref(false);
 </script>
@@ -21,7 +15,7 @@ const isMenuOpen = ref(false);
       </div>
 
       <div class="hidden md:flex items-center space-x-[50px]" data-aos="fade-down">
-        <div v-for="links in navLinks" :key="links.text">
+        <div v-for="links in navlinks" :key="links.text">
           <router-link
             :to="links.route"
             class="text-white hover:text-primary hover:border-b-[3px] font-500 leading-[22.4px] text-16px"
@@ -49,7 +43,7 @@ const isMenuOpen = ref(false);
     </div>
 
     <div v-if="isMenuOpen" class="md:hidden flex flex-col items-center space-y-4 mt-4">
-      <div v-for="links in navLinks" :key="links.text">
+      <div v-for="links in navlinks" :key="links.text">
         <router-link
           :to="links.route"
           class="text-white hover:text-primary hover:border-b-[3px] font-500 leading-[22.4px] text-16px"
