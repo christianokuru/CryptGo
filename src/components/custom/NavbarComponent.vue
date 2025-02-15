@@ -20,7 +20,6 @@ const isMenuOpen = ref(false);
             :to="links.route"
             class="text-white hover:text-primary hover:border-b-[3px] font-500 leading-[22.4px] text-16px"
             active-class="border-b-[3px] border-primary text-primary"
-            exact
           >{{ links.text }}</router-link>
         </div>
       </div>
