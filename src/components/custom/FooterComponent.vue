@@ -1,8 +1,10 @@
 <script setup>
+const currentYear = computed(() => new Date().getFullYear());
 import LogoComponent from "@/components/custom/LogoComponent.vue";
 import { navlinks } from "@/lib/Navlinks";
 import SocialMediaComponent from "@/components/custom/SocialMediaComponent.vue";
 import GooglePlayComponent from '@/components/custom/GooglePlayComponent.vue'
+import AppStoreComponent from '@/components/custom/AppStoreComponent.vue'
 import fb from "@/assets/images/socials/facebook.svg";
 import twitter from "@/assets/images/socials/twitter.svg";
 import instagram from "@/assets/images/socials/instagram.svg";
@@ -36,11 +38,11 @@ const otherPages = [
 </script>
 
 <template>
-  <footer class="border py-[88.5px]">
+  <footer class="pt-[88.5px]">
     <!-- top -->
-    <div class="flex items-center justify-between">
+    <div class="flex items-center justify-between mb-[88.5px]">
       <!-- left -->
-      <div class="w-[486px] mr-[185.15px] border">
+      <div class="w-[486px] mr-[185.15px]">
         <div>
           <div class="mb-[24px]">
             <logo-component />
@@ -64,7 +66,7 @@ const otherPages = [
         </div>
       </div>
       <!-- right -->
-      <div class="grid grid-cols-3 border border-primary w-[528.85px]">
+      <div class="grid grid-cols-3 w-[528.85px]">
         <!-- links -->
         <div>
           <p class="font-500 text-18px leading-[25.2px] mb-[12px]">Links</p>
@@ -72,7 +74,7 @@ const otherPages = [
             <div v-for="links in navlinks" :key="links.text">
               <router-link
                 :to="links.route"
-                class="text-[#FFFFFF99] hover:text-primary font-400 leading-[22.4px] text-16px"
+                class="text-[#FFFFFF99] hover:text-primary font-400 leading-[22.4px] text-16px mb-[8px]" 
                 active-class="border-b-[3px] border-primary text-primary"
                 >{{ links.text }}</router-link
               >
@@ -93,13 +95,17 @@ const otherPages = [
           </div>
         </div>
         <!-- Download app -->
-        <div>
+        <div class="space-y-[16px]">
+          <h1 class="font-500 text-18px leading-[25.2px] mb-[12px]">Download App</h1>
           <google-play-component />
+          <app-store-component />
         </div>
       </div>
     </div>
     <!-- bottom -->
-    <div></div>
+    <div class="px-[458px]">
+      <p class="text-center mt-[32px] mb-[40px] font-400 text-18px leading-[19.6px] text-[#FFFFFF66]">Copyright ©2025 Crypgo. All rights reserved</p>
+    </div>
   </footer>
 </template>
 
