@@ -2,6 +2,7 @@
 import LogoComponent from "@/components/custom/LogoComponent.vue";
 import { navlinks } from "@/lib/Navlinks";
 import SocialMediaComponent from "@/components/custom/SocialMediaComponent.vue";
+import GooglePlayComponent from '@/components/custom/GooglePlayComponent.vue'
 import fb from "@/assets/images/socials/facebook.svg";
 import twitter from "@/assets/images/socials/twitter.svg";
 import instagram from "@/assets/images/socials/instagram.svg";
@@ -92,7 +93,9 @@ const otherPages = [
           </div>
         </div>
         <!-- Download app -->
-        <div></div>
+        <div>
+          <google-play-component />
+        </div>
       </div>
     </div>
     <!-- bottom -->
