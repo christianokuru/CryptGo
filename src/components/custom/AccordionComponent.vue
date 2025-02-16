@@ -44,9 +44,9 @@ const accordionItems = [
         <AccordionItem class="mb-[20px] overflow-hidden" :value="item.value">
           <AccordionHeader class="flex">
             <AccordionTrigger
-              class="max-sm:text-[12px] max-sm: font-500 text-[20px] leading-[28px] flex h-[45px] flex-1 cursor-pointer items-center justify-between bg-[#FFFFFF0D] rounded-[16px] pl-[24px] py-[30px] md:py-[20px]"
+              class="max-sm:text-[12px] font-500 text-[20px] leading-[28px] flex h-[45px] flex-1 cursor-pointer items-center justify-between bg-[#FFFFFF0D] rounded-[16px] pl-[24px] py-[30px] md:py-[20px]"
             >
-              <span>{{ item.title }}</span>
+              <span class="my-[18px]">{{ item.title }}</span>
               <img :src="plus" alt="plus" class="mr-[24px] w-[20px] md:w-[24px]" />
             </AccordionTrigger>
           </AccordionHeader>
