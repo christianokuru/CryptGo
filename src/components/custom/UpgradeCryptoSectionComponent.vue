@@ -51,7 +51,7 @@ const checklist2 = [
     </div>
     </div>
     <div>
-      <img :src="chart" alt="crypto-chart" class="mr-[30px]">
+      <img :src="chart" alt="crypto-chart" class="mr-[30px] w-[587px]">
     </div>
   </div>
 </template>
