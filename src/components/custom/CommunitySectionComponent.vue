@@ -11,7 +11,7 @@ import community from '@/assets/images/community.svg'
                 <p class="font-400 text-[16px] leading-[22.4px] text-[#FFFFFF99]">Get faster, safer, more affordable cloud object storage with <br/>no centeral point of failure.</p>
             </div>
         </div>
-        <div>
+        <div class=" bg-[#FFFFFF0D] border border-[#FFFFFF1A] rounded-16">
             <img :src="community" alt="community" class="mt-[72px] mb-[72px] w-full">
         </div>
     </div>
