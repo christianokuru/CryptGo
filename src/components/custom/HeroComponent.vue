@@ -26,7 +26,9 @@ import hero from "@/assets/images/hero.svg"
         <button-component text="Explore more" :icon="arrow" />
       </div>
     </div>
-    <div class="w-[700px] h-[582px] mt-[72px]">
+
+
+    <div class="w-[584px] h-[582px] mt-[72px]">
         <img :src="hero" alt="hero" class=""/>
     </div>
   </div>
