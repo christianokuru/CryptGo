@@ -13,7 +13,7 @@ const list = [
 
 <template>
   <div class="flex items-center justify-between" data-aos="fade-right">
-    <div class="w-[700px]" >
+    <div class="w-[588px]" >
       <img :src="pic" alt="image-on-the-left" />
     </div>
     <div class="pl-[32px] ml-[29px] w-[585px]">
