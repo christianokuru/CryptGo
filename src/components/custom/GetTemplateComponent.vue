@@ -23,11 +23,11 @@ import rightArrow from "@/assets/images/right-arrow.svg";
         <button-component
           text="Get templates"
           :icon="rightArrow"
-          class="mr-[66px]"
+          class="mr-[66px] text-nowrap"
         />
       </div>
       <div
-        class="absolute inset-[0px] left-[989px] bg-[url('src/assets/images/abstract1.svg')] bg-no-repeat bg-cover opacity-5"
+        class="absolute inset-[0px] left-[790px] bg-[url('src/assets/images/abstract1.svg')] bg-no-repeat bg-cover opacity-5"
       ></div>
     </div>
   </div>
