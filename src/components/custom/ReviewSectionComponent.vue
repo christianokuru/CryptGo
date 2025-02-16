@@ -12,13 +12,14 @@ const reviews = ref([
 
 <template>
 <div>
-    <div class="my-[72px] mx-[102px]">
-        <div class="flex justify-evenly">
+    <div class="my-[72px]">
+        <div class="flex my-[72px] mx-[102px]">
             <review-card-component 
             v-for="(review, index) in reviews"
             :key="index"
             :big-text="review.bigText"
             :small-text="review.smallText"
+            class=" mr-[24px] border text-nowrap"
             />
         </div>
     </div>
